@@ -1,0 +1,119 @@
+body{
+    background-image: url(../images/main_bg.gif);
+}
+.logo{
+    position: fixed;
+    top: 0px;
+    right: auto;
+}
+.logo a{
+    position: absolute;
+    display: block;
+    text-align: center;
+}
+.logo span{
+    display: block;
+}
+a{
+    text-decoration: none;
+    
+}
+.topnav{
+    position: relative;
+    padding-left: 400px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+.menusm a{
+    display: inline-block;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-right: 1.5px dashed grey;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+#page{
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 20px;
+}
+.bg{
+    border-top: 1px dashed darkgray;
+    width: 940px;
+    position: relative;
+}
+.html_body{
+    max-width: 220px;
+    flex-grow: 1;
+    padding-left: 50px;
+    
+}
+.html_body1{
+    max-width: 220px;
+    flex-grow: 1;
+    padding-left: 80px;
+    
+}
+#columns {
+    display: flex; 
+    flex-wrap: wrap;
+    border-bottom: 1px dashed darkgray;
+}
+#footer {
+    height: 100%;
+    background-color: #757762;
+    padding: 10px 40px 10px 40px;
+    margin-top: 20px;
+}
+.rss {
+    display: flex;
+}
+h3 {
+    font-weight: 400;
+    font-size: 1.5em;
+    margin-right: 140px;
+    color: rgb(165, 184, 121)
+}
+
+.big {
+    margin-left: 5px;
+}
+form{
+
+    margin: 0px auto;
+    width: 350px;
+}
+label{
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    margin: 5px;
+}
+button{
+    margin-top: 15px;
+    margin-left: 150px;
+}
+textarea{
+    vertical-align: top;
+}
+input, textarea {
+    width: 200px;
+    box-sizing: border-box;
+}
+@media (max-width 500px) {
+    #columns {
+    display: flex; 
+}
+}
+
+@media (max-width 500px) {
+    .html_body {
+    max-width: 230px;
+    height: auto;
+    flex-shrink: 1;
+}
